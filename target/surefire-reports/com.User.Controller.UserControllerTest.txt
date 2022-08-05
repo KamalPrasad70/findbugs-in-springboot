@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.User.Controller.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 18.665 s <<< FAILURE! - in com.User.Controller.UserControllerTest
+updateUserTest  Time elapsed: 0.049 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.util.NoSuchElementException: No value present
+	at com.User.Controller.UserControllerTest.updateUserTest(UserControllerTest.java:61)
+Caused by: java.util.NoSuchElementException: No value present
+	at com.User.Controller.UserControllerTest.updateUserTest(UserControllerTest.java:61)
+
+deleteUserTest  Time elapsed: 0.024 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.util.NoSuchElementException: No value present
+	at com.User.Controller.UserControllerTest.deleteUserTest(UserControllerTest.java:71)
+Caused by: java.util.NoSuchElementException: No value present
+	at com.User.Controller.UserControllerTest.deleteUserTest(UserControllerTest.java:71)
+

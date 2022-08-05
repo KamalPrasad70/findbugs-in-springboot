@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.User.CrudApiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.91 s <<< FAILURE! - in com.User.CrudApiApplicationTests
+mainTest  Time elapsed: 2.9 s  <<< ERROR!
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+	at com.User.CrudApiApplicationTests.mainTest(CrudApiApplicationTests.java:43)
+Caused by: org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+	at com.User.CrudApiApplicationTests.mainTest(CrudApiApplicationTests.java:43)
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at com.User.CrudApiApplicationTests.mainTest(CrudApiApplicationTests.java:43)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at com.User.CrudApiApplicationTests.mainTest(CrudApiApplicationTests.java:43)
+Caused by: java.net.BindException: Address already in use: bind
+	at com.User.CrudApiApplicationTests.mainTest(CrudApiApplicationTests.java:43)
+

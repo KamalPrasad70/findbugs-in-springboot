@@ -1,0 +1,4 @@
+com\User\CrudApiApplication.class
+com\User\Controller\UserController.class
+com\User\Repository\UserRepository.class
+com\User\Entity\User.class
